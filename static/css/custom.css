@@ -40,6 +40,11 @@ figure {
   color: #3273dc;
 }
 
+.btn:hover {
+  background-color: #63bb66;
+  border-color: #63bb66;
+}
+
 /* Normal font weight for menu. */
 
 .navbar-light .navbar-nav > .nav-item > .nav-link,
