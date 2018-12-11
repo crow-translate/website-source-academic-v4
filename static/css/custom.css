@@ -41,3 +41,14 @@ figure {
 .navbar-light .navbar-nav > .nav-item > .nav-link:hover {
   font-weight: 400;
 }
+
+/* Change gallery item size. */
+a[data-fancybox] img {
+  height: 400px;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit;
+}
