@@ -1,0 +1,124 @@
+baseurl = "https://crow-translate.github.io/"
+title = "Crow Translate"
+copyright = "&copy; 2018-2019 Hennadii Chernyshchyk"
+theme = "academic"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+paginate = 10
+defaultContentLanguage = "en"
+
+[outputs]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
+  section = [ "HTML", "RSS" ]
+
+# BlackFriday Markdown rendering settings.
+[blackfriday]
+  hrefTargetBlank = true  # `true` opens external links in a new tab.
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = false  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+
+[params]
+  # Style.
+  color_theme = "forest"
+  font = "default"
+
+  # Description for social sharing and search engines.
+  description = "A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing translate API."
+
+  # Default image for social sharing and search engines.
+  sharing_image = "logo.svg"
+
+  # Disable dates.
+  date_format = ""
+  time_format = ""
+
+  # Show author profile.
+  profile = false
+
+  # Link custom CSS and JS assets (relative to /static/css and /static/js respectively).
+  custom_css = ["custom.css"]
+  custom_js  = []
+
+# Navigation Links
+[params.menus]
+  align_right = false
+
+[[menu.main]]
+  pre = "<i class=\"fas fa-images\"></i>"
+  name = "Screenshots"
+  url = "screenshots"
+  weight = 10
+
+[[menu.main]]
+  pre = "<i class=\"fas fa-keyboard\"></i>"
+  name = "Shortcuts"
+  url = "shortcuts"
+  weight = 20
+
+[[menu.main]]
+  pre = "<i class=\"fas fa-terminal\"></i>"
+  name = "Commands"
+  url = "commands"
+  weight = 30
+
+[[menu.main]]
+  pre = "<i class=\"fas fa-newspaper\"></i>"
+  name = "Changelog"
+  url = "https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md"
+  weight = 40
+
+[[menu.main_right]]
+  name = "<i class=\"fas fa-globe-americas\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
+  post = "Transefix"
+  url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
+  weight = 10
+
+[[menu.main_right]]
+  name = "<i class=\"fab fa-github-alt\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
+  post = "GitHub"
+  url = "https://github.com/crow-translate/crow-translate"
+  weight = 20
+
+# Localization.
+# English language.
+[languages.en]
+  languageCode = "en-us"
+
+# Russian language.
+[languages.ru]
+ languageCode = "ru-ru"
+   
+  [[languages.ru.menu.main]]
+    pre = "<i class=\"fas fa-images\"></i>"
+    name = "Скриншоты"
+    url = "screenshots"
+    weight = 10
+
+  [[languages.ru.menu.main]]
+    pre = "<i class=\"fas fa-keyboard\"></i>"
+    name = "Горячие клавиши"
+    url = "shortcuts"
+    weight = 20
+
+  [[languages.ru.menu.main]]
+    pre = "<i class=\"fas fa-terminal\"></i>"
+    name = "Команды"
+    url = "commands"
+    weight = 30
+
+  [[languages.ru.menu.main]]
+    pre = "<i class=\"fas fa-newspaper\"></i>"
+    name = "Изменения"
+    url = "https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md"
+    weight = 40
+
+  [[languages.ru.menu.main_right]]
+    name = "<i class=\"fas fa-globe-americas\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
+    post = "Transefix"
+    url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
+    weight = 10
+
+  [[languages.ru.menu.main_right]]
+    name = "<i class=\"fab fa-github-alt\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
+    post = "GitHub"
+    url = "https://github.com/crow-translate/crow-translate"
+    weight = 20
