@@ -16,6 +16,12 @@ figure {
   text-shadow: none;
 }
 
+.dark .hero-overlay .hero-title,
+.hero-overlay .hero-lead {
+  color: #fff;
+  text-shadow: none;
+}
+
 .hero-overlay .btn {
   color: #fff;
   text-shadow: none;

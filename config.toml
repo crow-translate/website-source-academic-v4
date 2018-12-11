@@ -20,6 +20,7 @@ defaultContentLanguage = "en"
   # Style.
   color_theme = "forest"
   font = "default"
+  day_night = true
 
   # Description for social sharing and search engines.
   description = "A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing."
