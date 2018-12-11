@@ -1,6 +1,6 @@
 +++
 widget = "featurette"
-title = "Feautures"
+title = "Features"
 active = true
 weight = 20
 
