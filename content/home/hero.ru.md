@@ -10,7 +10,7 @@ img = "screenshots/main.ru.png"
   label = '<i class="fas fa-download"></i> Скачать'
 +++
 
-Простой и легковесный переводчик, который позволяет переводить и озвучивать текст с помощью Google, Yandex и Bing translate API.
+Простой и легковесный переводчик, который позволяет переводить и озвучивать текст с помощью Google, Yandex и Bing.
 
 <div style="margin-top: -0.5rem;">
   <b><a id="academic-release" data-repo="crow-translate/crow-translate">

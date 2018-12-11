@@ -10,7 +10,7 @@ img = "screenshots/main.png"
   label = '<i class="fas fa-download"></i> Download'
 +++
 
-A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing translate API.
+A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing.
 
 <div style="margin-top: -0.5rem;">
   <b><a id="academic-release" data-repo="crow-translate/crow-translate">
