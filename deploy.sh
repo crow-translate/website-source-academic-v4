@@ -1,25 +1,23 @@
 #!/bin/bash
 
+commit_message="Rebuild"
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project
+# Build the website
 hugo
 
-# Go To Public folder
+# Commit and push changes to the compiled website submodule
 cd public
-
-# Add changes to git
+git checkout master
 git add .
-
-# Commit changes
-msg="Rebuild"
 if [ $# -eq 1 ]
-  then msg="$1"
+  then commit_message="$1"
 fi
-git commit -m "$msg"
+git commit -m "$commit_message"
+git push
 
-# Push source and build repos
-git push origin master
-
-# Come Back up to the Project Root
+# Commit and push changes to the website source
 cd ..
+git add .
+git commit -m "$commit_message"
