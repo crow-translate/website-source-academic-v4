@@ -21,3 +21,4 @@ git push
 cd ..
 git add .
 git commit -m "$commit_message"
+git push
