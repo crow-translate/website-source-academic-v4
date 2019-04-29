@@ -39,7 +39,7 @@
   
  [[ru.menu.main_right]]
    name = "<i class=\"fas fa-globe-americas\"></i>"
-   post = "Transefix"
+   post = "Transifex"
    url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
    weight = 10
 
