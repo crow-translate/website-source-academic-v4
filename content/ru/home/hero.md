@@ -45,7 +45,7 @@ hero_media = "screenshots/main-ru.png"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = '<a id="academic-release" data-repo="crow-translate/crow-translate">Последний релиз <!-- V --></a>'
+  label = '<a class="js-github-release" data-repo="crow-translate/crow-translate">Последний релиз<!-- V --></a>'
 +++
 
 Простой и легковесный переводчик, который позволяет переводить и озвучивать текст с помощью Google, Yandex и Bing.
