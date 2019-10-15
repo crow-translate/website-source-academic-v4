@@ -49,3 +49,5 @@ hero_media = "screenshots/main-ru.png"
 +++
 
 Простой и легковесный переводчик, который позволяет переводить и озвучивать текст с помощью Google, Yandex и Bing.
+
+<span style="text-shadow: none;"><a class="github-button" href="https://github.com/crow-translate/crow-translate" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
