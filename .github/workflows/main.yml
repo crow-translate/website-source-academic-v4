@@ -1,0 +1,27 @@
+name: Main
+on: push
+jobs:
+  Deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Clone repo
+      uses: actions/checkout@v1
+      with:
+        submodules: recursive
+        
+    - name: Run Hugo
+      uses: crazy-max/ghaction-hugo@v1
+      with:
+        extended: true
+        args: --gc --minify --verbose
+
+    - name: Deploy to GitHub pages
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        repo: crow-translate/crow-translate.github.io
+        target_branch: master
+        keep_history: true
+        build_dir: public
+        commit_message: ${{ github['event']['commits'][0]['message'] }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_PAT }}
