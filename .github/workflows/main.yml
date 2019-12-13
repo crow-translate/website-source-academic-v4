@@ -12,6 +12,7 @@ jobs:
     - name: Run Hugo
       uses: crazy-max/ghaction-hugo@v1
       with:
+        version: v0.58.3
         extended: true
         args: --gc --minify --verbose
 
