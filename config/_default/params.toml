@@ -46,10 +46,6 @@ org_name = ""
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing."
 
-# Display a logo in navigation bar rather than title (optional).
-#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = ""
-
 ############################
 ## Site Features
 ############################
@@ -170,7 +166,7 @@ plugins_js  = []
 # [address_formats]
 #   en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
 #   en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-#   de = {order = ['street', 'postcode', 'city'], delimiters = [', ', ' ', '']}
+#   de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
 #   fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
 #   zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
@@ -211,6 +207,11 @@ plugins_js  = []
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
+
+  # Configuration of Commento.
+  [comments.commento]
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url = ""
 
 ############################
 ## Search

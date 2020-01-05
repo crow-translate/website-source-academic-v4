@@ -7,16 +7,16 @@ jobs:
     - name: Clone repo
       uses: actions/checkout@v1
       with:
-        submodules: recursive
-        
+        fetch-depth: 1
+        submodules: true
+
     - name: Run Hugo
-      uses: crazy-max/ghaction-hugo@v1
+      uses: crazy-max/ghaction-hugo@v1.0.1
       with:
-        version: v0.58.3
         extended: true
 
     - name: Deploy to GitHub pages
-      uses: crazy-max/ghaction-github-pages@v1
+      uses: crazy-max/ghaction-github-pages@v1.2.5
       with:
         repo: crow-translate/crow-translate.github.io
         target_branch: master
