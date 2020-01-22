@@ -1,82 +1,51 @@
 +++
 title = "Screenshots"
 
-# Linux KDE
 [[gallery_item]]
-album = "1"
+album = "Linux Plasma"
 image = "screenshots/linux-plasma/main.png"
 caption = "Main window"
 
 [[gallery_item]]
-album = "2"
+album = "Linux Plasma"
 image = "screenshots/linux-plasma/popup.png"
 caption = "Pop-up window"
 
 [[gallery_item]]
-album = "3"
+album = "Linux Plasma"
 image = "screenshots/linux-plasma/sentense.png"
 caption = "Sentense translation"
 
 [[gallery_item]]
-album = "4"
+album = "Linux Plasma"
 image = "screenshots/linux-plasma/settings.png"
 caption = "Settings"
 
-# Windows 10
 [[gallery_item]]
-album = "5"
+album = "Windows 10"
 image = "screenshots/windows/main.png"
 caption = "Main window"
 
 [[gallery_item]]
-album = "6"
+album = "Windows 10"
 image = "screenshots/windows/popup.png"
 caption = "Pop-up window"
 
 [[gallery_item]]
-album = "7"
+album = "Windows 10"
 image = "screenshots/windows/sentense.png"
 caption = "Sentense translation"
 
 [[gallery_item]]
-album = "8"
+album = "Windows 10"
 image = "screenshots/windows/settings.png"
 caption = "Settings"
 +++
 
 ### Linux Plasma
 
-{{< gallery album="1" >}}
-
-Main window
-
-{{< gallery album="2" >}}
-
-Pop-up window
-
-{{< gallery album="3" >}}
-
-Sentense translation
-
-{{< gallery album="4" >}}
-
-Settings
+{{< gallery album="Linux Plasma" >}}
 
 ### Windows 10
 
-{{< gallery album="5" >}}
-
-Main window
-
-{{< gallery album="6" >}}
-
-Pop-up window
-
-{{< gallery album="7" >}}
-
-Sentense translation
-
-{{< gallery album="8" >}}
-
-Settings
-
+{{< gallery album="Windows 10" >}}
