@@ -5,10 +5,13 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Clone repo
-      uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-        submodules: true
+      uses: actions/checkout@v2
+
+    - name: Checkout submodules
+      run: |
+        echo $MAKEFLAGS
+        git submodule init
+        git submodule update
 
     - name: Run Hugo
       uses: crazy-max/ghaction-hugo@v1.0.1
