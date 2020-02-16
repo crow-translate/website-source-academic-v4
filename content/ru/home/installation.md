@@ -12,20 +12,72 @@ title = "Установка"
 
 ## Windows
 
-Вы можете скачать установщик или архив со страницы [релизов](https://github.com/crow-translate/crow-translate/releases/latest).
+:package: [Страница релизов](https://github.com/crow-translate/crow-translate/releases/latest)
 
-Вы также можете установить `crow-translate` из [scoop](https://scoop.sh).
+:package: [Пакет Scoop](https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json)
+
+```bash
+sudo scoop install crow-translate -g
+```
 
 ## Linux
 
-### Pacman-based (Arch Linux, Manjaro, Chakra etc.)
+### Arch Linux, Manjaro, Chakra, etc
 
-Вы можете установить [crow-translate](https://aur.archlinux.org/packages/crow-translate) или [crow-translate-git](https://aur.archlinux.org/packages/crow-translate-git) из AUR.
+:package: [Стабильная версия в AUR](https://aur.archlinux.org/packages/crow-translate)
 
-### APT-based (Debian, Ubuntu, Mint etc.)
+```bash
+git clone https://aur.archlinux.org/crow-translate.git
+cd crow-translate
+makepkg -si
+```
 
-Пакет доступен на странице [релизов](https://github.com/crow-translate/crow-translate/releases/latest).
+:package: [Git-версия в AUR](https://aur.archlinux.org/packages/crow-translate-git)
 
-### RPM-based (Fedora, RHEL, CentOS etc.)
+```bash
+git clone https://aur.archlinux.org/crow-translate-git.git
+cd crow-translate-git
+makepkg -si
+```
 
-Вы можете установить пакет с [Fedora Copr](https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate).
+### Debian, Ubuntu, Mint, etc
+
+:package: [Страница релизов](https://github.com/crow-translate/crow-translate/releases/latest)
+
+### Fedora
+
+:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate)
+
+```bash
+sudo dnf copr enable faezebax/crow-translate
+sudo dnf install crow-translate
+```
+
+### CentOS, RHEL
+
+:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate)
+
+```bash
+sudo yum copr enable faezebax/crow-translate
+sudo yum install crow-translate
+```
+
+### openSUSE Tumbleweed
+
+:package: [Репозиторий Tumbleweed](https://software.opensuse.org/package/crow-translate)
+
+```bash
+sudo zypper install crow-translate
+```
+
+### openSUSE Leap
+
+:package: [Open Build Service](https://software.opensuse.org/package/crow-translate)
+
+### Solus
+
+:package: [Репозиторий Solus](https://dev.getsol.us/source/crow-translate)
+
+```bash
+sudo eopkg it crow-translate
+```
