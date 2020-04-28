@@ -53,7 +53,7 @@
  languageCode = "es-es"
  contentDir = "content/es"
  [es.params]
-   description = "Un traductor simple y ligero que permite traducir y reproducir de manera hablada el texto utilizando Google, Yandex o Bing.
+   description = "Un traductor simple y ligero que permite traducir y reproducir de manera hablada el texto utilizando Google, Yandex o Bing."
  [[es.menu.main]]
    pre = "<i class=\"fas fa-images\"></i> "
    name = "Capturas de pantalla"
