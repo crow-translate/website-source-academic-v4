@@ -1,41 +1,41 @@
 +++
 widget = "featurette"
 weight = 2
-title = "Features"
+title = "Características"
 
 [[feature]]
   icon = "tachometer-alt"
   icon_pack = "fas"
-  name = "Speed"
-  description = "The program is written in C++ / Qt and consumes ~20 MB of RAM."
+  name = "Velocidad"
+  description = "El programa está escrito en C++ / Qt y consume solo ~20 MB de RAM."
 
 [[feature]]
   icon = "github"
   icon_pack = "fab"
-  name = "Open source"
-  description = "Crow Translate is licensed under the GPL v3 license, which means you can use and modify it for free."
+  name = "Código abierto"
+  description = "Crow Translate está publicado bajo una licencia GPL v3, lo que significa que puedes utilizarlo y modificarlo de manera libre."
 
 [[feature]]
   icon = "globe-americas"
   icon_pack = "fas"
-  name = "Many languages"
-  description = "Thanks to Google, Yandex and Bing, you can translate into 117 different languages."
+  name = "Muchos idiomas"
+  description = "Gracias a Google, Yandex y Bing, puedes traducir a 117 idiomas diferentes."
 
 [[feature]]
   icon = "terminal"
   icon_pack = "fas"
-  name = "CLI interface"
-  description = "You can translate text directly in the terminal."
+  name = "Interfaz para la línea de comandos"
+  description = "Puedes traducir texto directamente desde la terminal."
 
 [[feature]]
   icon = "font"
   icon_pack = "fas"
-  name = "Selection"
-  description = "Translate and speak text in any application that supports text selection."
+  name = "Selección"
+  description = "Traduce y reproduce el texto de manera hablada en cualquier aplicación que admita la selección de texto."
 
 [[feature]]
   icon = "linux"
   icon_pack = "fab"
-  name = "Cross-platform"
-  description = "Available for Linux and Windows."
+  name = "Multiplataforma"
+  description = "Disponible para Linux y Windows."
 +++
