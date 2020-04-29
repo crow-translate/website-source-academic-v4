@@ -13,7 +13,7 @@ caption = "Ventana emergente"
 
 [[gallery_item]]
 album = "Plasma Linux"
-image = "screenshots/linux-plasma/sentense.png"
+image = "screenshots/linux-plasma/sentence.png"
 caption = "Traducción de frase"
 
 [[gallery_item]]
@@ -33,7 +33,7 @@ caption = "Ventana emergente"
 
 [[gallery_item]]
 album = "Windows 10"
-image = "screenshots/windows/sentense.png"
+image = "screenshots/windows/sentence.png"
 caption = "Traducción de frase"
 
 [[gallery_item]]
