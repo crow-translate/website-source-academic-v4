@@ -13,7 +13,7 @@ caption = "Всплывающее окно"
 
 [[gallery_item]]
 album = "Linux Plasma"
-image = "screenshots/linux-plasma/sentense.png"
+image = "screenshots/linux-plasma/sentence.png"
 caption = "Перевод предложения"
 
 [[gallery_item]]
@@ -33,7 +33,7 @@ caption = "Всплывающее окно"
 
 [[gallery_item]]
 album = "Windows 10"
-image = "screenshots/windows/sentense.png"
+image = "screenshots/windows/sentence.png"
 caption = "Перевод предложения"
 
 [[gallery_item]]
