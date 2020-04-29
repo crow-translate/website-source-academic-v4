@@ -1,7 +1,7 @@
 +++
 widget = "blank"
 weight = 3
-title = "Installation"
+title = "Instalación"
 
 [design.spacing]
   padding = ["10px", "0", "10px", "0"]
@@ -12,9 +12,9 @@ title = "Installation"
 
 ## Windows
 
-:package: [Releases page](https://github.com/crow-translate/crow-translate/releases/latest)
+:package: [Página de lanzamiento](https://github.com/crow-translate/crow-translate/releases/latest)
 
-:package: [Scoop package](https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json)
+:package: [Paquete Scoop](https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json)
 
 ```bash
 sudo scoop install crow-translate -g
@@ -24,7 +24,7 @@ sudo scoop install crow-translate -g
 
 ### Arch Linux, Manjaro, Chakra, etc
 
-:package: [Stable version in AUR](https://aur.archlinux.org/packages/crow-translate)
+:package: [Versión estable en AUR](https://aur.archlinux.org/packages/crow-translate)
 
 ```bash
 git clone https://aur.archlinux.org/crow-translate.git
@@ -32,7 +32,7 @@ cd crow-translate
 makepkg -si
 ```
 
-:package: [Git version in AUR](https://aur.archlinux.org/packages/crow-translate-git)
+:package: [Versión de Git en AUR](https://aur.archlinux.org/packages/crow-translate-git)
 
 ```bash
 git clone https://aur.archlinux.org/crow-translate-git.git
@@ -42,7 +42,7 @@ makepkg -si
 
 ### Debian, Ubuntu, Mint, etc
 
-:package: [Releases page](https://github.com/crow-translate/crow-translate/releases/latest)
+:package: [Página de lanzamientos](https://github.com/crow-translate/crow-translate/releases/latest)
 
 ### Fedora
 
@@ -64,7 +64,7 @@ sudo yum install crow-translate
 
 ### openSUSE Tumbleweed
 
-:package: [Tumbleweed repository](https://software.opensuse.org/package/crow-translate)
+:package: [Repositorio de Tumbleweed](https://software.opensuse.org/package/crow-translate)
 
 ```bash
 sudo zypper install crow-translate
@@ -76,7 +76,7 @@ sudo zypper install crow-translate
 
 ### Solus
 
-:package: [Solus repository](https://dev.getsol.us/source/crow-translate)
+:package: [Repositorio de Solus](https://dev.getsol.us/source/crow-translate)
 
 ```bash
 sudo eopkg it crow-translate
