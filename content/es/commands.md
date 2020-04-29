@@ -1,5 +1,5 @@
 +++
-title = "CLI commands"
+title = "Comandos para la línea de comandos"
 +++
 
 Este programa también tiene interfaz para la consola.
