@@ -74,7 +74,7 @@
 
  [[es.menu.main]]
    pre = "<i class=\"fas fa-newspaper\"></i> "
-   name = "Registro de cambios"
+   name = "Novedades"
    url = "https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md"
    weight = 40
  
