@@ -13,8 +13,8 @@ caption = "Pop-up window"
 
 [[gallery_item]]
 album = "Linux Plasma"
-image = "screenshots/linux-plasma/sentense.png"
-caption = "Sentense translation"
+image = "screenshots/linux-plasma/sentence.png"
+caption = "Sentence translation"
 
 [[gallery_item]]
 album = "Linux Plasma"
@@ -33,8 +33,8 @@ caption = "Pop-up window"
 
 [[gallery_item]]
 album = "Windows 10"
-image = "screenshots/windows/sentense.png"
-caption = "Sentense translation"
+image = "screenshots/windows/sentence.png"
+caption = "Sentence translation"
 
 [[gallery_item]]
 album = "Windows 10"

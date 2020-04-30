@@ -1,50 +1,50 @@
 +++
-title = "Скриншоты"
+title = "Capturas de pantalla"
 
 [[gallery_item]]
-album = "Linux Plasma"
+album = "Plasma Linux"
 image = "screenshots/linux-plasma/main.png"
-caption = "Главное окно"
+caption = "Pantalla principal"
 
 [[gallery_item]]
-album = "Linux Plasma"
+album = "Plasma Linux"
 image = "screenshots/linux-plasma/popup.png"
-caption = "Всплывающее окно"
+caption = "Ventana emergente"
 
 [[gallery_item]]
-album = "Linux Plasma"
+album = "Plasma Linux"
 image = "screenshots/linux-plasma/sentence.png"
-caption = "Перевод предложения"
+caption = "Traducción de frase"
 
 [[gallery_item]]
-album = "Linux Plasma"
+album = "Plasma Linux"
 image = "screenshots/linux-plasma/settings.png"
-caption = "Настройки"
+caption = "Ajustes"
 
 [[gallery_item]]
 album = "Windows 10"
 image = "screenshots/windows/main.png"
-caption = "Главное окно"
+caption = "Pantalla principal"
 
 [[gallery_item]]
 album = "Windows 10"
 image = "screenshots/windows/popup.png"
-caption = "Всплывающее окно"
+caption = "Ventana emergente"
 
 [[gallery_item]]
 album = "Windows 10"
 image = "screenshots/windows/sentence.png"
-caption = "Перевод предложения"
+caption = "Traducción de frase"
 
 [[gallery_item]]
 album = "Windows 10"
 image = "screenshots/windows/settings.png"
-caption = "Настройки"
+caption = "Ajustes"
 +++
 
-### Linux Plasma
+### Plasma Linux
 
-{{< gallery album="Linux Plasma" >}}
+{{< gallery album="Plasma Linux" >}}
 
 ### Windows 10
 

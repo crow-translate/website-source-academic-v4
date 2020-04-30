@@ -48,3 +48,44 @@
    post = "GitHub"
    url = "https://github.com/crow-translate"
    weight = 20
+
+[es]
+ languageCode = "es-es"
+ contentDir = "content/es"
+ [es.params]
+   description = "Un traductor simple y ligero que permite traducir y reproducir de manera hablada el texto utilizando Google, Yandex o Bing."
+ [[es.menu.main]]
+   pre = "<i class=\"fas fa-images\"></i> "
+   name = "Capturas de pantalla"
+   url = "screenshots"
+   weight = 10
+
+ [[es.menu.main]]
+   pre = "<i class=\"fas fa-keyboard\"></i> "
+   name = "Atajos de teclado"
+   url = "shortcuts"
+   weight = 20
+
+ [[es.menu.main]]
+   pre = "<i class=\"fas fa-terminal\"></i> "
+   name = "Comandos"
+   url = "commands"
+   weight = 30
+
+ [[es.menu.main]]
+   pre = "<i class=\"fas fa-newspaper\"></i> "
+   name = "Novedades"
+   url = "https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md"
+   weight = 40
+ 
+ [[es.menu.main_right]]
+   name = "<i class=\"fas fa-globe-americas\"></i> "
+   post = "Transifex"
+   url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
+   weight = 10
+
+ [[es.menu.main_right]]
+   name = "<i class=\"fab fa-github-alt\"></i> "
+   post = "GitHub"
+   url = "https://github.com/crow-translate"
+   weight = 20
