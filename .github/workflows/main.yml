@@ -5,21 +5,17 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Clone repo
-      uses: actions/checkout@v2
-
-    - name: Checkout submodules
-      run: |
-        echo $MAKEFLAGS
-        git submodule init
-        git submodule update
+      uses: actions/checkout@v2.1.0
+      with:
+        submodules: true
 
     - name: Run Hugo
-      uses: crazy-max/ghaction-hugo@v1.0.1
+      uses: crazy-max/ghaction-hugo@v1.3.1
       with:
         extended: true
 
     - name: Deploy to GitHub pages
-      uses: crazy-max/ghaction-github-pages@v1.3.0
+      uses: crazy-max/ghaction-github-pages@v1.5.1
       with:
         repo: crow-translate/crow-translate.github.io
         target_branch: master
