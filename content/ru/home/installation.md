@@ -73,11 +73,11 @@ sudo yum install crow-translate
 :package: [Репозиторий BlogDrake](http://ftp.blogdrake.net)
 
 ```bash
-# With urpmi
+# С помощью urpmi
 sudo urpmi urpmi.addmedia --wget --distrib http://ftp.blogdrake.net/mageia/mageia7/x86_64 # Or i586
 sudo urpmi crow-translate
 
-# Or with dnf
+# Или с помощью dnf
 sudo dnf config-manager --add-repo http://ftp.blogdrake.net/mageia/BDK.repo
 sudo dnf install crow-translate
 ```
