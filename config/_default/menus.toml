@@ -29,8 +29,8 @@
   
 [[main_right]]
   name = "<i class=\"fas fa-globe-americas\"></i> "
-  post = "Transifex"
-  url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
+  post = "Localization"
+  url = "https://crowdin.com/project/crow-translate"
   weight = 10
 
 [[main_right]]

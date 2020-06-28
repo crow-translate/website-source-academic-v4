@@ -39,8 +39,8 @@
   
  [[ru.menu.main_right]]
    name = "<i class=\"fas fa-globe-americas\"></i> "
-   post = "Transifex"
-   url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
+   post = "Localization"
+   url = "https://crowdin.com/project/crow-translate"
    weight = 10
 
  [[ru.menu.main_right]]
@@ -74,14 +74,15 @@
 
  [[es.menu.main]]
    pre = "<i class=\"fas fa-newspaper\"></i> "
-   name = "Registro de cambios"
+   name = "Novedades"
    url = "https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md"
    weight = 40
  
  [[es.menu.main_right]]
    name = "<i class=\"fas fa-globe-americas\"></i> "
-   post = "Transifex"
    url = "https://www.transifex.com/crow-translate/crow-translate/dashboard/"
+   post = "Traducción"
+   url = "https://crowdin.com/project/crow-translate"
    weight = 10
 
  [[es.menu.main_right]]
