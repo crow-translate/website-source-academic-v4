@@ -44,7 +44,7 @@ cd crow-translate-git
 makepkg -si
 ```
 
-:package: [Repositorio de Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur)
+:package: [Repositorio Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur)
 
 ```bash
 sudo pacman -S crow-translate
@@ -70,21 +70,21 @@ sudo yum install crow-translate
 
 #### Mageia 7
 
-:package: [Repositorio de BlogDrake](http://ftp.blogdrake.net)
+:package: [Repositorio BlogDrake](http://ftp.blogdrake.net)
 
 ```bash
-# With urpmi
+# Con urpmi
 sudo urpmi urpmi.addmedia --wget --distrib http://ftp.blogdrake.net/mageia/mageia7/x86_64 # Or i586
 sudo urpmi crow-translate
 
-# Or with dnf
+# O con dnf
 sudo dnf config-manager --add-repo http://ftp.blogdrake.net/mageia/BDK.repo
 sudo dnf install crow-translate
 ```
 
 #### openSUSE Tumbleweed
 
-:package: [Repositorio de Tumbleweed](https://software.opensuse.org/package/crow-translate)
+:package: [Repositorio Tumbleweed](https://software.opensuse.org/package/crow-translate)
 
 ```bash
 sudo zypper install crow-translate
@@ -96,7 +96,7 @@ sudo zypper install crow-translate
 
 #### Solus
 
-:package: [Repositorio de Solus](https://dev.getsol.us/source/crow-translate)
+:package: [Repositorio Solus](https://dev.getsol.us/source/crow-translate)
 
 ```bash
 sudo eopkg it crow-translate
