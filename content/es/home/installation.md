@@ -14,7 +14,7 @@ title = "Instalación"
 
 Las descargas están disponibles en la página de [Publicaciones](https://github.com/crow-translate/crow-translate/releases/latest).
 
-## Paquetes 
+## Paquetes
 
 ### Windows
 
@@ -52,10 +52,10 @@ sudo pacman -S crow-translate
 
 #### Fedora
 
-:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate)
+:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/carlis/crow-translate)
 
 ```bash
-sudo dnf copr enable faezebax/crow-translate
+sudo dnf copr enable carlis/crow-translate
 sudo dnf install crow-translate
 ```
 
