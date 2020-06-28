@@ -10,9 +10,13 @@ title = "Installation"
   columns = "1"
 +++
 
-## Windows
+## Download
 
-:package: [Releases page](https://github.com/crow-translate/crow-translate/releases/latest)
+Downloads are available on the [Releases](https://github.com/crow-translate/crow-translate/releases/latest) page.
+
+## Packages
+
+### Windows
 
 :package: [Scoop package](https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json)
 
@@ -20,9 +24,9 @@ title = "Installation"
 sudo scoop install crow-translate -g
 ```
 
-## Linux
+### Linux
 
-### Arch Linux, Manjaro, Chakra, etc
+#### Arch Linux, Manjaro, Chakra, etc
 
 :package: [Stable version in AUR](https://aur.archlinux.org/packages/crow-translate)
 
@@ -40,29 +44,45 @@ cd crow-translate-git
 makepkg -si
 ```
 
-### Debian, Ubuntu, Mint, etc
-
-:package: [Releases page](https://github.com/crow-translate/crow-translate/releases/latest)
-
-### Fedora
-
-:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate)
+:package: [Chaotic-AUR repository](https://lonewolf.pedrohlc.com/chaotic-aur)
 
 ```bash
-sudo dnf copr enable faezebax/crow-translate
+sudo pacman -S crow-translate
+```
+
+#### Fedora
+
+:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/carlis/crow-translate)
+
+```bash
+sudo dnf copr enable carlis/crow-translate
 sudo dnf install crow-translate
 ```
 
-### CentOS, RHEL
+#### CentOS, RHEL
 
-:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate)
+:package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/carlis/crow-translate)
 
 ```bash
-sudo yum copr enable faezebax/crow-translate
+sudo yum copr enable carlis/crow-translate
 sudo yum install crow-translate
 ```
 
-### openSUSE Tumbleweed
+#### Mageia 7
+
+:package: [BlogDrake repository](http://ftp.blogdrake.net)
+
+```bash
+# With urpmi
+sudo urpmi urpmi.addmedia --wget --distrib http://ftp.blogdrake.net/mageia/mageia7/x86_64 # Or i586
+sudo urpmi crow-translate
+
+# Or with dnf
+sudo dnf config-manager --add-repo http://ftp.blogdrake.net/mageia/BDK.repo
+sudo dnf install crow-translate
+```
+
+#### openSUSE Tumbleweed
 
 :package: [Tumbleweed repository](https://software.opensuse.org/package/crow-translate)
 
@@ -70,11 +90,11 @@ sudo yum install crow-translate
 sudo zypper install crow-translate
 ```
 
-### openSUSE Leap
+#### openSUSE Leap
 
 :package: [Open Build Service](https://software.opensuse.org/package/crow-translate)
 
-### Solus
+#### Solus
 
 :package: [Solus repository](https://dev.getsol.us/source/crow-translate)
 
