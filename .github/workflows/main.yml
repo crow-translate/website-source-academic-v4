@@ -2,7 +2,7 @@ name: Main
 on: push
 jobs:
   Deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - name: Clone repo
       uses: actions/checkout@v2.1.0
@@ -10,12 +10,12 @@ jobs:
         submodules: true
 
     - name: Run Hugo
-      uses: crazy-max/ghaction-hugo@v1.3.1
+      uses: crazy-max/ghaction-hugo@v1.3.2
       with:
         extended: true
 
     - name: Deploy to GitHub pages
-      uses: crazy-max/ghaction-github-pages@v1.5.1
+      uses: crazy-max/ghaction-github-pages@v2.1.0
       with:
         repo: crow-translate/crow-translate.github.io
         target_branch: master
@@ -24,4 +24,4 @@ jobs:
         build_dir: public
         commit_message: ${{ github['event']['commits'][0]['message'] }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
