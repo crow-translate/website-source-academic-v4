@@ -21,6 +21,7 @@ Wayland does not support global shortcuts registration, but you can use [D-Bus](
 | Key                                               | Description                             |
 | ------------------------------------------------- | --------------------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>Return</kbd>               | Translate                               |
+| <kbd>Ctrl</kbd> + <kbd>R</kbd>                    | Swap languages                          |
 | <kbd>Ctrl</kbd> + <kbd>Q</kbd>                    | Close window                            |
 | <kbd>Ctrl</kbd> + <kbd>S</kbd>                    | Speak source / pause text speaking      |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Speak translation / pause text speaking |
@@ -37,7 +38,8 @@ Currently available only for [global shortcuts](#global).
         ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
         ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
-        └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+        └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
 
 For example, you can show main window using `dbus-send`:
 

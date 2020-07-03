@@ -21,6 +21,7 @@ Wayland не поддерживает глобальные горячие кла
 | Комбинация                                        | Описание                                                   |
 | ------------------------------------------------- | ---------------------------------------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>Return</kbd>               | Перевести                                                  |
+| <kbd>Ctrl</kbd> + <kbd>R</kbd>                    | Поменять языки местами                                     |
 | <kbd>Ctrl</kbd> + <kbd>Q</kbd>                    | Закрыть окно                                               |
 | <kbd>Ctrl</kbd> + <kbd>S</kbd>                    | Воспроизвести / приостановить озвучивание исходного текста |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Воспроизвести / приостановить озвучивание перевода         |
@@ -37,7 +38,8 @@ Wayland не поддерживает глобальные горячие кла
         ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
         ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
-        └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+        └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
 
 Например, вы можете показать главное окно с помощью `dbus-send`:
 

@@ -21,6 +21,7 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
 | Combinación de teclas                             | Descripción                                             |
 | ------------------------------------------------- | ------------------------------------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>Enter</kbd>                | Traducir                                                |
+| <kbd>Ctrl</kbd> + <kbd>R</kbd>                    | Intercambiar idiomas                                    |
 | <kbd>Ctrl</kbd> + <kbd>Q</kbd>                    | Cerrar la ventana                                       |
 | <kbd>Ctrl</kbd> + <kbd>S</kbd>                    | Reproducir / pausar el texto hablado del texto original |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Reproducir / pausar el texo hablado de la traducción    |
@@ -37,7 +38,8 @@ Actualmente están solo disponibles para [atajos de teclado globales](global).
         ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
         ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
-        └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+        └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
 
 Por ejemplo, puedes mostrar la pantalla principal utilizando `dbus-send`:
 
