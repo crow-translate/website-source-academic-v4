@@ -29,17 +29,25 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
 
 ## API D-Bus 
 
-Actualmente están solo disponibles para [atajos de teclado globales](global).
-
     io.crow_translate.CrowTranslate
     └── /io/crow_translate/CrowTranslate/MainWindow
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.open()
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
-        └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
+        |   # Global shortcuts
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+        |   # Main window shortcuts
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.abortTranslation();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.swapLanguages();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.openSettings();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.setAutoTranslateEnabled(bool enabled);
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.copySourceText();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslation();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.copyAllTranslationInfo();
+        └── method void io.crow_translate.CrowTranslate.MainWindow.quit();
 
 Por ejemplo, puedes mostrar la pantalla principal utilizando `dbus-send`:
 
