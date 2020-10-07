@@ -101,3 +101,13 @@ sudo zypper install crow-translate
 ```bash
 sudo eopkg it crow-translate
 ```
+
+#### Ubuntu, Linux Mint, KDE Neon, etc
+
+:package: [Archivo de Paquetes Personales Ubuntu](https://launchpad.net/~jonmagon/+archive/ubuntu/crow-translate)
+
+```bash
+sudo add-apt-repository ppa:jonmagon/crow-translate
+sudo apt update
+sudo apt install crow-translate
+```
