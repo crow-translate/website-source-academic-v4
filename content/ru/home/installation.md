@@ -50,6 +50,16 @@ makepkg -si
 sudo pacman -S crow-translate
 ```
 
+#### Ubuntu, Linux Mint, KDE Neon, etc
+
+:package: [Launchpad PPA](https://launchpad.net/~jonmagon/+archive/ubuntu/crow-translate)
+
+```bash
+sudo add-apt-repository ppa:jonmagon/crow-translate
+sudo apt update
+sudo apt install crow-translate
+```
+
 #### Fedora
 
 :package: [Fedora Copr](https://copr.fedorainfracloud.org/coprs/carlis/crow-translate)
@@ -100,14 +110,4 @@ sudo zypper install crow-translate
 
 ```bash
 sudo eopkg it crow-translate
-```
-
-#### Ubuntu, Linux Mint, KDE Neon, etc
-
-:package: [Персональный архив пакетов Ubuntu](https://launchpad.net/~jonmagon/+archive/ubuntu/crow-translate)
-
-```bash
-sudo add-apt-repository ppa:jonmagon/crow-translate
-sudo apt update
-sudo apt install crow-translate
 ```
