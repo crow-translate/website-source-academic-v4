@@ -15,6 +15,7 @@ Wayland не поддерживает глобальные горячие кла
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Озвучить перевод выделенного текста |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Остановить озвучивание текста       |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> | Показать главное окно               |
+| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>O</kbd> | Перевести текст в области экрана    |
 
 ## В главном окне
 

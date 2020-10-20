@@ -30,8 +30,8 @@ title = "Características"
 [[feature]]
   icon = "font"
   icon_pack = "fas"
-  name = "Selección"
-  description = "Traduce y reproduce el texto de manera hablada en cualquier aplicación que admita la selección de texto."
+  name = "Selección / OCR"
+  description = "Traducir y decir texto desde la pantalla o selección"
 
 [[feature]]
   icon = "linux"

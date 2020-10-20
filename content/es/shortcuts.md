@@ -14,7 +14,7 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> | Reproducir hablando el texto seleccionado                |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Reproducir hablando la traducción del texto seleccionado |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Detener la reproducción hablada                          |
-| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> | Mostrar la ventana principal                             |
+| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> | Traducir texto en el área de la pantalla                 |
 
 ## En la pantalla principal
 

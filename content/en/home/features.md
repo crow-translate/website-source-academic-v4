@@ -30,8 +30,8 @@ title = "Features"
 [[feature]]
   icon = "font"
   icon_pack = "fas"
-  name = "Selection"
-  description = "Translate and speak text in any application that supports text selection."
+  name = "Selection / OCR"
+  description = "Translate and speak text from screen or selection"
 
 [[feature]]
   icon = "linux"
