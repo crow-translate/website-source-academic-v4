@@ -38,6 +38,7 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateScreenArea();
         |   # Main window shortcuts
         ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.abortTranslation();

@@ -39,6 +39,7 @@ Wayland does not support global shortcuts registration, but you can use [D-Bus](
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.translateScreenArea();
         |   # Main window shortcuts
         ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.abortTranslation();
