@@ -15,6 +15,7 @@ Wayland does not support global shortcuts registration, but you can use [D-Bus](
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Speak translation of selected text |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Stop speaking                      |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> | Show main window                   |
+| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> | Recognize text in screen area      |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>O</kbd> | Translate text in screen area      |
 
 ## In main window
@@ -39,10 +40,11 @@ Wayland does not support global shortcuts registration, but you can use [D-Bus](
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.recognizeScreenArea();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.translateScreenArea();
         |   # Main window shortcuts
         ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.abortTranslation();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.cancelOperation();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.swapLanguages();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.openSettings();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.setAutoTranslateEnabled(bool enabled);

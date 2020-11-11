@@ -14,6 +14,7 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> | Reproducir hablando el texto seleccionado                |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Reproducir hablando la traducción del texto seleccionado |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Detener la reproducción hablada                          |
+| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> | Reconocer texto en el área de la pantalla                |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> | Traducir texto en el área de la pantalla                 |
 
 ## En la pantalla principal
@@ -38,10 +39,11 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.recognizeScreenArea();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.translateScreenArea();
         |   # Main window shortcuts
         ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.abortTranslation();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.cancelOperation();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.swapLanguages();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.openSettings();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.setAutoTranslateEnabled(bool enabled);

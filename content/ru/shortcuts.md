@@ -15,6 +15,7 @@ Wayland не поддерживает глобальные горячие кла
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Озвучить перевод выделенного текста |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Остановить озвучивание текста       |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> | Показать главное окно               |
+| <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> | Распознать текст в области экрана   |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>O</kbd> | Перевести текст в области экрана    |
 
 ## В главном окне
@@ -39,10 +40,11 @@ Wayland не поддерживает глобальные горячие кла
         ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.recognizeScreenArea();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.translateScreenArea();
         |   # Main window shortcuts
         ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
-        ├── method void io.crow_translate.CrowTranslate.MainWindow.abortTranslation();
+        ├── method void io.crow_translate.CrowTranslate.MainWindow.cancelOperation();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.swapLanguages();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.openSettings();
         ├── method void io.crow_translate.CrowTranslate.MainWindow.setAutoTranslateEnabled(bool enabled);
