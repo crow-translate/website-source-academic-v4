@@ -5,17 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Clone repo
-      uses: actions/checkout@v2.1.0
+      uses: actions/checkout@v2.3.4
       with:
         submodules: true
 
     - name: Run Hugo
-      uses: crazy-max/ghaction-hugo@v1.3.2
+      uses: crazy-max/ghaction-hugo@v1.3.3
       with:
         extended: true
 
     - name: Deploy to GitHub pages
-      uses: crazy-max/ghaction-github-pages@v2.1.0
+      uses: crazy-max/ghaction-github-pages@v2.2.0
       with:
         repo: crow-translate/crow-translate.github.io
         target_branch: master
