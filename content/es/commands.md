@@ -21,5 +21,6 @@ Este programa también tiene interfaz para la consola.
 | `-i, --stdin`              | Añade los datos de la entrada estándar (stdin) al texto origen                                                                |
 | `-a, --audio-only`         | Muestra el texto solo para reproducir hablando cuando se utiliza `--speak-translation` o `--speak-source`                     |
 | `-b, --brief`              | Imprimir solo traducciones                                                                                                    |
+| `-j, --json`               | Salida de impresión formateada como JSON                                                                                      |
 
 **Nota:** Si no le pasas argumentos al programa, se lanza la interfaz gráfica.

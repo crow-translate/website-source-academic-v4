@@ -21,5 +21,6 @@ The program also has a console interface.
 | `-i, --stdin`              | Add stdin data to source text                                                                  |
 | `-a, --audio-only`         | Print text only for speaking when using `--speak-translation` or `--speak-source`              |
 | `-b, --brief`              | Print only translations                                                                        |
+| `-j, --json`               | Print output formatted as JSON                                                                 |
 
 **Note:** If you do not pass startup arguments to the program, the GUI starts.
